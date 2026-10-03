@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "epts_footprints")(type "KiCad")(uri "${MY_LIB_DIR}/epts_footprints.pretty")(options "")(descr ""))
+  (lib (name "test")(type "KiCad")(uri "${MY_LIB_DIR}/epts_footprints.pretty")(options "")(descr ""))
+)

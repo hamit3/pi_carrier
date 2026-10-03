@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "cc961853-9115-4167-9127-5d40c502ded6")
+	(paper "A4")
+	(title_block
+		(title "bb_cam_cry")
+		(date "2025-10-02")
+		(rev "V0")
+		(company "Buybuddy Co")
+		(comment 1 "Carrier Board for AMB82 Mini")
+	)
+	(lib_symbols)
+)

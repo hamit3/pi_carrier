@@ -1,0 +1,191 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0e29a821-4150-46cf-8b53-a4263d5f36dd")
+	(paper "A4")
+	(title_block
+		(title "bb_pi_cry")
+		(date "2025-10-02")
+		(rev "V0")
+		(company "Buybuddy Co")
+		(comment 1 "Carrier Board for Raspberry Pi Zero 2W")
+	)
+	(lib_symbols)
+	(text "RASPBERRY \nPI ZERO 2W"
+		(exclude_from_sim no)
+		(at 211.2264 98.3996 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+				(color 4 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ae1107f-e767-4df3-928d-896ee2f2f872")
+	)
+	(sheet
+		(at 33.02 68.58)
+		(size 51.054 46.736)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 199 249 255 1.0000)
+		)
+		(uuid "48d1d1f8-8ddb-44b0-8202-45d9c60fde93")
+		(property "Sheetname" "POWER"
+			(at 43.8404 93.345 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+					(color 16 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 33.02 115.9006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bb_pizero_cry_v0"
+				(path "/0e29a821-4150-46cf-8b53-a4263d5f36dd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 122.936 68.072)
+		(size 50.292 46.482)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 2 255 1.0000)
+		)
+		(uuid "4e71f315-7ad8-43da-ad74-a74ff5f0917b")
+		(property "Sheetname" "nRF52832"
+			(at 128.6764 94.5896 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+					(color 10 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU.kicad_sch"
+			(at 122.936 115.1386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 122.936 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "bb_pizero_cry_v0"
+				(path "/0e29a821-4150-46cf-8b53-a4263d5f36dd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 206.1464 70.4596)
+		(size 53.34 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 140 255 1.0000)
+		)
+		(uuid "91fe4d50-f09d-4647-be6a-86e170d0b751")
+		(property "Sheetname" "pi_conn"
+			(at 206.1464 69.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "amb82_conn.kicad_sch"
+			(at 206.1464 114.2242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bb_pizero_cry_v0"
+				(path "/0e29a821-4150-46cf-8b53-a4263d5f36dd"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "pagelayout_default.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WAOBwUSALZZTh8gkx7NYG6WKzWfxz4igyxMdJi9ZFvlYmN6X0kQHGRgQwBBAEcA/dcxDFuu
+				3/L8MPyPqww/5lKz6wdj33rJFKu8xa3rfjNGsDF/1Y7fal2/GcX2T9Xe4+8627xr7RoQ+A3eqK34
+				hWbtAtgSe8rWcOYailC/x7/6CaUpG87Nk61b3VPPPFc5+83YetuwoWzZ13XXjyA1jLE/09cgjYVt
+				1W6/fjvm+7obnCkUb3H7LosrAkTQB45Dpqmhi6uWndMXtWrjxYjQFGwIZjSjSUWFNkwKQR/8qSLn
+				vGX/61ZvlvraJjNlR8QmZ8OuqgrG9yTXfwOAwCtIipIkiZKyEKMEYQLK7dIMw4mJ4TFNUkRY1MWT
+				La1q6dc2RDBK7FeJjA+6ar87JuIQDCIX40GO0dtPsYwtnT2jD4jyqZF1oAFRiEpoFBQUJEkHYESE
+				Bq0blQZ4CGw1+gJvJsPNNWbAcJy2Lw9My/cHRcv5Hv7AsisfSJaguXmem7g5m8W4IUZnTkD1ZJQg
+				R0NkhKvc9rLpqVA+O0xhtZ0dzD6BB8U3gsdYMBM+vK3A6RGAxEQ8CJ0iHNFE/8CHp+eChRVGnt5j
+				acT+Mer1gi+vyEZeVkiBjNu2IkhNMnUy59wC/rg+D+knBdEkZuVDXX+HYzrGbqBk6ueXRZkTJXPf
+				h8QTT9zB4HZlYoW6LTMJ5T6QY3Ox5rm94GwIaEUBWD7cahOHcGl2NUgDVYI12qlZQVVRiFECmLmY
+				HzkFWSJs/H45dKgW/ICSBg==|
+			)
+			(checksum "310CF7CA5004202A47F18B2460666603")
+		)
+	)
+)
